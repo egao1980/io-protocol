@@ -4,7 +4,8 @@ CLOS **object streams** for [cl-stack](https://github.com/egao1980/cl-stack) —
 
 Nick: **`stack-io`**. OCI: `ghcr.io/egao1980/cl-systems/io-protocol:0.1.0`
 
-**No serdes dependency.** Format codecs live in [`serdes-protocol`](https://github.com/egao1980/serdes-protocol). Brief: [io.md](https://github.com/egao1980/cl-stack/blob/main/docs/capabilities/io.md).
+**No serdes dependency.** Format codecs live in [`serdes-protocol`](https://github.com/egao1980/serdes-protocol).  
+**Cookbook:** [io.md](https://github.com/egao1980/cl-stack/blob/main/docs/cookbooks/io.md) · Brief: [io.md](https://github.com/egao1980/cl-stack/blob/main/docs/capabilities/io.md).
 
 ```lisp
 (asdf:load-system "io-protocol")
